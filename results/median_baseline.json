@@ -1,0 +1,45 @@
+{
+  "training_median_minutes": 64.06159982085212,
+  "validation": {
+    "mae_log": 1.3281893621735401,
+    "rmse_log": 1.938991269429231,
+    "r2": -0.15215577464404162,
+    "mae_minutes": 78.6451377239786,
+    "median_abs_error_minutes": 44.16745841508275,
+    "by_bucket": {
+      "short": {
+        "jobs": 3919,
+        "mae_minutes": 59.33364849447342
+      },
+      "medium": {
+        "jobs": 8977,
+        "mae_minutes": 60.26552451628705
+      },
+      "long": {
+        "jobs": 50,
+        "mae_minutes": 4892.155418841535
+      }
+    }
+  },
+  "test": {
+    "mae_log": 1.2905743061892654,
+    "rmse_log": 1.8699924675251636,
+    "r2": -0.09323366848897319,
+    "mae_minutes": 135.29545046896612,
+    "median_abs_error_minutes": 47.74194952091946,
+    "by_bucket": {
+      "short": {
+        "jobs": 4139,
+        "mae_minutes": 57.47136279296106
+      },
+      "medium": {
+        "jobs": 9494,
+        "mae_minutes": 67.40556145187693
+      },
+      "long": {
+        "jobs": 107,
+        "mae_minutes": 9169.505779620646
+      }
+    }
+  }
+}

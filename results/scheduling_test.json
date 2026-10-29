@@ -1,0 +1,23 @@
+{
+  "First Fit": {
+    "cost": 743.8164384597924,
+    "servers": 695,
+    "ratio": 1.491057006727478
+  },
+  "Greedy (true durations)": {
+    "cost": 666.3372918847035,
+    "servers": 847,
+    "ratio": 1.3357420413641568
+  },
+  "Greedy (median duration)": {
+    "cost": 813.9955652160575,
+    "servers": 540,
+    "ratio": 1.6317383270981642
+  },
+  "Greedy (model durations)": {
+    "cost": 773.8356509851301,
+    "servers": 585,
+    "ratio": 1.5512336240458993
+  },
+  "opt_lower_bound": 498.8517777011731
+}
